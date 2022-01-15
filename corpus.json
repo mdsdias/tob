@@ -1,0 +1,38 @@
+[
+  {
+    "input": { "quem": 1, "é": 1, "você": 1 },
+    "output": { "mim": 1 }
+  },
+  {
+    "input": { "fale": 1, "sobre": 1, "você": 1 },
+    "output": { "mim": 1 }
+  },
+  {
+    "input": { "porque": 1, "você": 1, "está": 1, "aqui": 1 },
+    "output": { "estou": 1 }
+  },
+  {
+    "input": { "quem": 1, "te": 1, "desenvolveu": 1},
+    "output": { "developer": 1 }
+  },
+  {
+    "input": { "quem": 1, "é": 1, "seu": 1, "developer": 1 },
+    "output": { "developer": 1 }
+  },
+  {
+    "input": { "quem": 1, "fez": 1, "você": 1, "funcionar": 1},
+    "output": { "developer": 1 }
+  },
+  {
+    "input": { "quando": 1, "é": 1, "seu": 1, "aniversário": 1 },
+    "output": { "niver": 1 }
+  },
+  {
+    "input": { "quando": 1, "você": 1, "nasceu": 1 },
+    "output": { "niver": 1 }
+  },
+  {
+    "input": { "qual": 1, "a": 1, "data": 1, "do":1, "seu":1, "aniversário": 1 },
+    "output": { "niver": 1 }
+  }
+]
