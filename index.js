@@ -1,48 +1,81 @@
-const { Client } = require('selfo.js');
-const { NeuralNetwork } = require('@nlpjs/neural');
+const { Client, Collection } = require("selfo.js"),
+    config = require("./config"),
+    cmds = require("./config/cmds.json"),
+    ia = require('./config/ia'),
+    fs = require("fs"),
+    ss = require("./config/messages"),
+    corpus = require("./config/corpus.json");
+let resps = require('./config/resps.json');
 let client = new Client();
-const config = require('./config');
+client.commands = new Collection();
+client.prefix = config.prefix;
 
-client.on('ready', () => {
-	console.log(`Iniciado [${client.user.tag}] pronto!.`)
+client.on("ready", () => {
+    console.log(`Iniciado [${client.user.tag}] pronto!.`)
+    ia.trainIA(corpus); // ia treinor
 });
 
-client.on('message', msg => {
-	resp = true;
-    if (msg.type === "GUILD_MEMBER_JOIN") msg.channel.send(`Bem vindo (a) ${msg.author}! \n Va em <#926671205174501395> e obtenha cores!`);
-	// Comandos por prefix
-    if (msg.content.startsWith(config.prefix)) {
-			if (msg.content.includes('ping')) {
-                msg.channel.send('pong').then((msg) => {
-                    setTimeout(() => {
-                        msg.edit(client.ping + "ms")                    
-                }, 2000)
-                })
-            }
-            else if (msg.content.includes('avatar') || msg.content.includes('av')) {
-				let user = msg.mentions.users.first() || msg.author; 
-				msg.channel.send(user.avatarURL);
-             }
-			else if (msg.content.includes('send')){ 
-				try {
-					let tempresp = resp;
-					if (tempresp) msg.channel.send("`Pode escrever oque quer mandar:`")
-					const filter = m => !m.content.includes(`Pode escrever oque quer mandar:`);
-					const collector = msg.channel.createMessageCollector(filter, { max: 1, time: 10000 });
-					collector.on('collect', m => m.channel.send(m.content));
-					collector.on('end', collected => { if (tempresp) { msg.channel.send("`Pronto!`") } });
-				} catch (e) {
-					console.log(e)
-                }   }
-	} else {    
-        if (msg.channel
-             .toString()
-             .includes("929588583038353441") && 
-            !msg.content.includes(config.prefix) &&
-            msg.author.id === config.admID){ 
-        
+const commandFiles = fs
+    .readdirSync("./comandos")
+    .filter((file) => file.endsWith(".js"));
+for (const file of commandFiles) {
+    const command = require(`./comandos/` + file);
+    client.commands.set(command.name, command);
+}
+
+client.on("message", (message) => {
+    if (message.type === "GUILD_MEMBER_JOIN") {
+        ss.mchs(
+            `Bem vindo (a) ${message.author}! \n Va em <#926671205174501395> e obtenha cores!`
+            , message
+        );
+        return;
+    }
+
+    if (message.author.bot || client.user == message.author) return;
+
+    if (!message.content.startsWith(client.prefix)) {
+
+        if (message.channel.type == "dm") {
+            ss.mchs(ia.genMSG(message.content, resps = resps, context = ia.getContext(message)), message);
+        } else if (message.mentions.users.first() == client.user) {
+            ss.mchs(ia.genMSG(message.content, resps = resps, context = ia.getContext(message)), message);
         }
-	}
+        else {
+            cmds.forEach((cmd) => {
+                if (cmd.prefix == message.content.toLowerCase()) ss.mchs(cmd.response, message);
+            });
+        }
+    };
+    const args = message.content.slice(client.prefix.length).split(/ +/);  // client.prefix.length pra qualquer coisa cm 3 letras ir "noc.av"
+    const commandName = args.shift().toLowerCase();
+
+    const command =
+        client.commands.get(commandName) ||
+        client.commands.find(
+            (cmd) => cmd.aliases && cmd.aliases.includes(commandName)
+        );
+
+    // If command exist
+    if (!command) return;
+
+    // Check if command can be executed in DM
+    if (command.guildOnly && message.channel.type !== "text") {
+        return message.reply("Este comando é pra servers.");
+    }
+
+    // Check if args are required
+    if (command.args && !args.length) {
+        let reply = `Tu esqueceu de algo ein, ${message.author}!`; 0
+
+        if (command.usage) {
+            reply += `\nJeito de usar: \`${client.prefix}${command.name} ${command.usage}\``;
+        }
+
+        return ss.mchs(reply, message);
+    }
+    command.execute(message, args, client);
 });
-require('./server')();
+
+require("./config/server")();
 client.login(config.token);

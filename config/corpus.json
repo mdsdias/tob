@@ -1,0 +1,957 @@
+[
+  {
+    "input":{
+      "quem":1,
+      "e":1,
+      "você":1
+    },
+    "output":{
+      "mim":1
+    }
+  },
+  {
+    "input":{
+      "qm":1,
+      "e":1,
+      "vc":1
+    },
+    "output":{
+      "mim":1
+    }
+  },
+  {
+    "input":{
+      "oq":1,
+      "e":1,
+      "vc":1
+    },
+    "output":{
+      "mim":1
+    }
+  },
+  {
+    "input":{
+      "oque":1,
+      "vc":1,
+      "e":1
+    },
+    "output":{
+      "mim":1
+    }
+  },
+  {
+    "input":{
+      "fale":1,
+      "sobre":1,
+      "você":1
+    },
+    "output":{
+      "mim":1
+    }
+  },
+  {
+    "input":{
+      "porque":1,
+      "vc":1,
+      "está":1,
+      "aqui":1
+    },
+    "output":{
+      "estou":1
+    }
+  },
+  {
+    "input":{
+      "pq":1,
+      "vc":1,
+      "ta":1,
+      "aqui":1
+    },
+    "output":{
+      "estou":1
+    }
+  },
+  {
+    "input":{
+      "quem":1,
+      "te":1,
+      "desenvolveu":1
+    },
+    "output":{
+      "developer":1
+    }
+  },
+  {
+    "input":{
+      "quem":1,
+      "e":1,
+      "seu":1,
+      "developer":1
+    },
+    "output":{
+      "developer":1
+    }
+  },
+  {
+    "input":{
+      "quem":1,
+      "fez":1,
+      "vc":1,
+      "funcionar":1
+    },
+    "output":{
+      "developer":1
+    }
+  },
+  {
+    "input":{
+      "quando":1,
+      "é":1,
+      "seu":1,
+      "aniversario":1
+    },
+    "output":{
+      "niver":1
+    }
+  },
+  {
+    "input":{
+      "quando":1,
+      "você":1,
+      "nasceu":1
+    },
+    "output":{
+      "niver":1
+    }
+  },
+  {
+    "input":{
+      "qual":1,
+      "a":1,
+      "data":1,
+      "do":1,
+      "seu":1,
+      "aniversario":1
+    },
+    "output":{
+      "niver":1
+    }
+  },
+  {
+    "input":{
+      "ola":1
+    },
+    "output":{
+      "cumprimento":1
+    }
+  },
+  {
+    "input": {
+      "oi": 1
+    },
+    "output": {
+      "cumprimento": 1
+    }
+  },
+  {
+    "input": {
+      "oie": 1
+    },
+    "output": {
+      "cumprimento": 1
+    }
+  },
+  {
+    "input":{
+      "eae":1
+    },
+    "output":{
+      "cumprimento":1
+    }
+  },
+  {
+    "input":{
+      "coe":1
+    },
+    "output":{
+      "cumprimento":1
+    }
+  },
+  {
+    "input":{
+      "eai":1
+    },
+    "output":{
+      "cumprimento":1
+    }
+  },
+  {
+    "input":{
+      "aoba":1
+    },
+    "output":{
+      "cumprimento":1
+    }
+  },
+  {
+    "input":{
+      "eai":1
+    },
+    "output":{
+      "cumprimento":1
+    }
+  },
+  {
+    "input":{
+      "opa":1
+    },
+    "output":{
+      "cumprimento":1
+    }
+  },
+  {
+    "input":{
+      "oi":1
+    },
+    "output":{
+      "cumprimento":1
+    }
+  },
+  {
+    "input":{
+      "bom":1,
+      "dia":1
+    },
+    "output":{
+      "dia":1
+    }
+  },
+  {
+    "input":{
+      "boa":1,
+      "tarde":1
+    },
+    "output":{
+      "tarde":1
+    }
+  },
+  {
+    "input":{
+      "boa":1,
+      "madrugada":1
+    },
+    "output":{
+      "madrugada":1
+    }
+  },
+  {
+    "input":{
+      "boa":1,
+      "noite":1
+    },
+    "output":{
+      "noite":1
+    }
+  },
+  {
+    "input":{
+      "bom":1,
+      "dia":1
+    },
+    "output":{
+      "dia":1
+    }
+  },
+  {
+    "input":{
+      "bom":1,
+      "tarde":1
+    },
+    "output":{
+      "tarde":1
+    }
+  },
+  {
+    "input":{
+      "bom":1,
+      "madrugada":1
+    },
+    "output":{
+      "madrugada":1
+    }
+  },
+  {
+    "input":{
+      "bom":1,
+      "noite":1
+    },
+    "output":{
+      "noite":1
+    }
+  },
+  {
+    "input":{
+      "como":1,
+      "vc":1,
+      "tá":1
+    },
+    "output":{
+      "sobre":1
+    }
+  },
+  {
+    "input":{
+      "vc":1,
+      "ta":1,
+      "bem":1
+    },
+    "output":{
+      "sobre":1
+    }
+  },
+  {
+    "input":{
+      "se":1,
+      "ta":1,
+      "bem":1
+    },
+    "output":{
+      "sobre":1
+    }
+  },
+  {
+    "input":{
+      "povo":1,
+      "louco":1,
+      "ne":1
+    },
+    "output":{
+      "pergunta":1
+    }
+  },
+  {
+    "input":{
+      "isso":1,
+      "e":1,
+      "louco":1,
+      "ne":1
+    },
+    "output":{
+      "pergunta":1
+    }
+  },
+  {
+    "input":{
+      "vc":1,
+      "gosta":1,
+      "de":1,
+      "carro":1
+    },
+    "output":{
+      "pergunta":1
+    }
+  },
+  {
+    "input":{
+      "prefere":1,
+      "marvel":1,
+      "ou":1,
+      "dc":1
+    },
+    "output":{
+      "gosto":1
+    }
+  },
+  {
+    "input":{
+      "prefere":1,
+      "chuva":1,
+      "ou":1,
+      "ensolarado":1
+    },
+    "output":{
+      "gosto":1
+    }
+  },
+  {
+    "input":{
+      "vc":1,
+      "gosta":1,
+      "dele":1
+    },
+    "output":{
+      "pergunta":1
+    }
+  },
+  {
+    "input":{
+      "vc":1,
+      "gosta":1,
+      "dela":1
+    },
+    "output":{
+      "pergunta":1
+    }
+  },
+  {
+    "input":{
+      "vc":1,
+      "gosta":1,
+      "de":1,
+      "mim":1
+    },
+    "output":{
+      "pergunta":1
+    }
+  },
+  {
+    "input":{
+      "obrigado":1
+    },
+    "output":{
+      "agradecer":1
+    }
+  },
+  {
+    "input":{
+      "obrgd":1
+    },
+    "output":{
+      "agradecer":1
+    }
+  },
+  {
+    "input":{
+      "obg":1
+    },
+    "output":{
+      "agradecer":1
+    }
+  },
+  {
+    "input": {
+      "obgrd": 1
+    },
+    "output": {
+      "agradecer": 1
+    }
+  },
+  {
+    "input": {
+      "obrg": 1
+    },
+    "output": {
+      "agradecer": 1
+    }
+  },
+  {
+    "input": {
+      "obgr": 1
+    },
+    "output": {
+      "agradecer": 1
+    }
+  },
+  {
+    "input":{
+      "thanks":1
+    },
+    "output":{
+      "agradecer":1
+    }
+  },
+  {
+    "input":{
+      "vlw":1
+    },
+    "output":{
+      "agradecer":1
+    }
+  },
+  {
+    "input":{
+      "xau":1
+    },
+    "output":{
+      "adeus":1
+    }
+  },
+  {
+    "input":{
+      "tchau":1
+    },
+    "output":{
+      "adeus":1
+    }
+  },
+  {
+    "input":{
+      "adeus":1
+    },
+    "output":{
+      "adeus":1
+    }
+  },
+  {
+    "input":{
+      "flw":1
+    },
+    "output":{
+      "adeus":1
+    }
+  },
+  {
+    "input":{
+      "vou":1,
+      "indo":1
+    },
+    "output":{
+      "adeus":1
+    }
+  },
+  {
+    "input":{
+      "to":1,
+      "metendo":1,
+      "o":1,
+      "pe":1
+    },
+    "output":{
+      "adeus":1
+    }
+  },
+  {
+    "input":{
+      "flws":1
+    },
+    "output":{
+      "adeus":1
+    }
+  },
+  {
+    "input": {
+      "eu": 1,
+      "te":1,
+      "odeio":1
+    },
+    "output": {
+      "xingando": 1
+    }
+  },
+  {
+    "input": {
+      "te": 1,
+      "odeio": 1
+    },
+    "output": {
+      "xingando": 1
+    }
+  },
+  {
+    "input": {
+      "vai": 1,
+      "se": 1,
+      "fude": 1
+    },
+    "output": {
+      "xingando": 1
+    }
+  },
+  {
+    "input": {
+      "vsfd": 1
+    },
+    "output": {
+      "xingando": 1
+    }
+  },
+  {
+    "input": {
+      "tmnc": 1
+    },
+    "output": {
+      "xingando": 1
+    }
+  },
+  {
+    "input": {
+      "seu": 1,
+      "bosta":1
+    },
+    "output": {
+      "xingando": 1
+    }
+  },
+  {
+    "input": {
+      "seu": 1,
+      "merda":1
+    },
+    "output": {
+      "xingando": 1
+    }
+  },
+  {
+    "input": {
+      "te": 1,
+      "amo":1
+    },
+    "output": {
+      "elogio": 1
+    }
+  },
+  {
+    "input": {
+      "gosto": 1,
+      "de": 1,
+      "vc":1
+    },
+    "output": {
+      "elogio": 1
+    }
+  },
+  {
+    "input": {
+      "vc": 1,
+      "e": 1,
+      "fofo":1
+    },
+    "output": {
+      "elogio": 1
+    }
+  },
+  {
+    "input": {
+      "vc": 1,
+      "e": 1,
+      "legal": 1
+    },
+    "output": {
+      "elogio": 1
+    }
+  },
+  {
+    "input": {
+      "vc": 1,
+      "e": 1,
+      "mt": 1,
+      "legal": 1
+    },
+    "output": {
+      "elogio": 1
+    }
+  },
+  {
+    "input": {
+      "vc": 1,
+      "e": 1,
+      "mt": 1,
+      "fofo": 1
+    },
+    "output": {
+      "elogio": 1
+    }
+  },
+  {
+    "input": {
+      "tu": 1,
+      "e": 1,
+      "foda":1
+    },
+    "output": {
+      "elogio": 1
+    }
+  },
+  {
+    "input": {
+      "tambem": 1,
+      "estou": 1,
+      "bem": 1
+    },
+    "output": {
+      "contexto": 1
+    }
+  },
+  {
+    "input": {
+      "tbm": 1,
+      "to": 1
+    },
+    "output": {
+      "contexto": 1
+    }
+  },
+  {
+    "input": {
+      "to": 1,
+      "com": 1,
+      "sono":1,
+      "tambem":1
+    },
+    "output": {
+      "contexto": 1
+    }
+  },
+  {
+    "input": {
+      "tbm": 1
+    },
+    "output": {
+      "contexto": 1
+    }
+  },
+  {
+    "input": {
+      "to": 1,
+      "triste": 1
+    },
+    "output": {
+      "triste": 1
+    }
+  },
+  {
+    "input": {
+      "to": 1,
+      "sad": 1
+    },
+    "output": {
+      "triste": 1
+    }
+  },
+  {
+    "input": {
+      "to": 1,
+      "mal": 1
+    },
+    "output": {
+      "triste": 1
+    }
+  },
+  {
+    "input": {
+      "nn": 1,
+      "to": 1,
+      "bem": 1
+    },
+    "output": {
+      "triste": 1
+    }
+  },
+  {
+    "input": {
+      "meu": 1,
+      "cachorro": 1,
+      "morreu":1
+    },
+    "output": {
+      "morte": 1
+    }
+  },
+  {
+    "input": {
+      "meu": 1,
+      "avo": 1,
+      "morreu": 1
+    },
+    "output": {
+      "morte": 1
+    }
+  },
+  {
+    "input": {
+      "ele": 1,
+      "morreu": 1
+    },
+    "output": {
+      "morte": 1
+    }
+  },
+  {
+    "input": {
+      "vc": 1,
+      "e": 1,
+      "bobo": 1
+    },
+    "output": {
+      "xingando": 1
+    }
+  },
+  {
+    "input": {
+      "tudo": 1,
+      "bem": 1
+    },
+    "output": {
+      "sobre": 1
+    }
+  },
+  {
+    "input": {
+      "o": 1,
+      "que": 1,
+      "voce":1,
+      "acha": 1,
+      "de": 1,
+      "mim": 1
+    },
+    "output": {
+      "gosto": 1
+    }
+  },
+  {
+    "input": {
+      "o": 1,
+      "q": 1,
+      "vc": 1,
+      "acha": 1,
+      "de": 1,
+      "carros":1
+    },
+    "output": {
+      "gosto": 1
+    }
+  },
+  {
+    "input": {
+      "tob": 1
+    },
+    "output": {
+      "chamando": 1
+    }
+  },
+  {
+    "input": {
+      "ei": 1
+    },
+    "output": {
+      "chamando": 1
+    }
+  },
+  {
+    "input": {
+      "ou": 1
+    },
+    "output": {
+      "chamando": 1
+    }
+  },
+  {
+    "input": {
+      "kkkk": 1
+    },
+    "output": {
+      "risos": 1
+    }
+  },
+  {
+    "input": {
+      "kk": 1
+    },
+    "output": {
+      "risos": 1
+    }
+  },
+  {
+    "input": {
+      "ksks": 1
+    },
+    "output": {
+      "risos": 1
+    }
+  },
+  {
+    "input": {
+      "rsrs": 1
+    },
+    "output": {
+      "risos": 1
+    }
+  },
+  {
+    "input": {
+      "kaskasdkksa": 1
+    },
+    "output": {
+      "risos": 1
+    }
+  },
+  {
+    "input": {
+      "hahah": 1
+    },
+    "output": {
+      "risos": 1
+    }
+  },
+  {
+    "input": {
+      "akkakakakkakaka": 1
+    },
+    "output": {
+      "risos": 1
+    }
+  },
+  {
+    "input": {
+      "pq": 1
+    },
+    "output": {
+      "pq": 1
+    }
+  },
+  {
+    "input": {
+      "[]": 1
+    },
+    "output": {
+      "kitviadagi": 1
+    }
+  },
+  {
+    "input": {
+      "null": 1
+    },
+    "output": {
+      "kitviadagi": 1
+    }
+  },
+  {
+    "input": {  
+      "\\": 1
+    },
+    "output": {
+      "kitviadagi": 1
+    }
+  },
+  {
+    "input": {
+      "oq": 1,
+      "vc":1,
+      "faz":1
+    },
+    "output": {
+      "pergcomands": 1
+    }
+  },
+  {
+    "input": {
+      "fale": 1,
+      "um": 1,
+      "fato": 1
+    },
+    "output": {
+      "pergcomands": 1
+    }
+  },
+  {
+    "input": {
+      "oque": 1,
+      "vc":1,
+      "sabe":1,
+      "fazer":1
+    },
+    "output": {
+      "pergcomands": 1
+    }
+  }
+]
