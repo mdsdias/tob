@@ -1,0 +1,23 @@
+{
+  "name": "Discordjs-starter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@nlpjs/basic": "^4.22.9",
+    "@nlpjs/lang-pt": "^4.22.7",
+    "@nlpjs/neural": "^4.22.7",
+    "@nlpjs/nlp": "^4.22.9",
+    "express": "^4.17.2",
+    "natural": "^5.1.13",
+    "node-nlp": "^4.22.9",
+    "request": "^2.88.2",
+    "selfo.js": "^1.1.0"
+  }
+}
