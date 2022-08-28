@@ -12,8 +12,8 @@
         "response": "bere bere bere"
     },
     {
-        "prefix":"quem é o melhor dog",
-        "response":"Toquin... ;( F."
+        "prefix": "quem é o melhor dog",
+        "response": "Toquin... ;( F."
     },
     {
         "prefix": "kkkk",
@@ -34,5 +34,53 @@
     {
         "prefix": "moto moto",
         "response": "Eu gosto assim..."
+    },
+    {
+        "prefix": "segura o tchan",
+        "response": "Amarra o tchan, segura o tchan tchan tchan tchan..."
+    },
+    {
+        "prefix": "hihihiha",
+        "response": "Re Re Re Ra"
+    },
+    {
+        "prefix": "onde ta o onepiece?",
+        "response": "No cu do Cookie"
+    },
+    {
+        "prefix": "onde tá o onepiece?",
+        "response": "No cu do Cookie"
+    },
+    {
+        "prefix": "onde tá o one piece?",
+        "response": "No cu do Cookie"
+    },
+    {
+        "prefix": "jotaro",
+        "response": "DIO"
+    },
+    {
+        "prefix": "dio",
+        "response": "JOTARO"
+    },
+    {
+        "prefix": "muda muda muda",
+        "response": "ORA ORA ORA"
+    },
+    {
+        "prefix": "ora ora ora",
+        "response": "MUDA MUDA MUDA"
+    },
+    {
+        "prefix": "quem é o melhor jogador de lol?",
+        "response": "Takashi!"
+    },
+    {
+      "prefix": "tob vc é gay?",
+      "response": "Não, tu que deixa!"
+    },
+    {
+      "prefix": "jojo reference",
+      "response": "https://imgs.search.brave.com/jOfkx3ZLGTNmilXWtk2SbPE0IAdW0SpNWz9N-h1raWw/rs:fit:720:405:1/g:ce/aHR0cDovL2kwLmt5/bS1jZG4uY29tL3Bo/b3Rvcy9pbWFnZXMv/b3JpZ2luYWwvMDAw/LzQ5Ny8yMjAvZmUy/LmdpZg.gif"
     }
 ]

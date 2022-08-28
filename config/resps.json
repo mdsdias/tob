@@ -46,9 +46,6 @@
     ],
     "random": [
         "Análise",
-        "Não tenho resposta ainda.",
-        "Error 404",
-        "Não sei te responder, reclama com o Isqne!",
         "Tão ta bom"
     ],
     "gosto": [
@@ -61,11 +58,7 @@
     ],
     "pergunta": [
         "Sim",
-        "Não",
-        "Sim",
-        "Não",
-        "Sim",
-        "Sim"
+        "Não"
     ],
     "agradecer": [
         "Não tem diquer.",
@@ -95,7 +88,7 @@
     ],
     "triste": [
         "Sinto muito",
-        ":/ puts, talvez isso anime {img}"
+        ":/ puts, talvez isso anime https://cdn.discordapp.com/attachments/934510838423896084/936808486090719243/0.png"
     ],
     "chamando": [
         "Oi, a disposição!",
@@ -108,16 +101,17 @@
         "Aiai... ksk"
     ],
     "pq": [
-        "Acho interessante"
+        "Acho interessante",
+        "Sei lá",
+        "Nem tudo se sabe o porque",
+        "Não sei, mas me interessa"
     ],
     "kitviadagi": [
         "Pare com isso",
-        "Achei ofensivo"
+        "Achei ofensivo",
+        "Não sei o que dizer, apenas que pare de ser boboca"
     ],
     "pergcomands": [
-        "Hmm, isso me lembra um comando...",
-        "Acho que vc quer usar um comando...",
-        "Vc sabe que eu tenho comandos né?",
-        "*Dica*: ´isq.´ é meu prefixo!"
+        "Analisekk"
     ]
 }
